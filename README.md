@@ -1,4 +1,4 @@
-# Videojuegos en Estreno CRUD
+# Videojuegos y series anime en venta
 
 Este proyecto es un CRUD (Create, Read, Update, Delete) desarrollado en HTML, CSS, MySQL y PHP para gestionar información sobre videojuegos y anime en venta. Utiliza XAMPP como entorno de desarrollo local.
 
