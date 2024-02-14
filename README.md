@@ -31,8 +31,6 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
 5. Abre tu navegador y accede a `http://localhost/nombre-de-tu-proyecto/index.php`.
 
-¡Listo! Ahora deberías poder gestionar los videojuegos en estreno a través del CRUD.
-
 ---
 
 Este README proporciona una breve descripción del proyecto, una guía de instalación y una visión general de la estructura del código. Asegúrate de personalizar la información según las necesidades específicas de tu proyecto.
