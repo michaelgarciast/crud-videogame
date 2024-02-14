@@ -1,4 +1,4 @@
-Nombre proyecto: Ecommerce / compras mini supermercado
+Nombre proyecto: Ecommerce / venta de series anime y video juegos
 Universidad: Ucompensar.
 Profesor asignatura: Julio Cesar Bolano Perez.
 Curso: Introducción a los lenguajes de internet.
