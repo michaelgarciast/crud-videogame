@@ -33,4 +33,4 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
 ---
 
-Este README proporciona una breve descripción del proyecto, una guía de instalación y una visión general de la estructura del código. Asegúrate de personalizar la información según las necesidades específicas de tu proyecto.
+Este README proporciona una breve descripción del proyecto, una guía de instalación y una visión general de la estructura del código. 
