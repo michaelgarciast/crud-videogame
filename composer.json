@@ -1,0 +1,27 @@
+{
+    "name": "universidad/creatic",
+    "descripcion" : "Tienda online",
+    "type" : "project",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"cristhian sepulveda",
+            "email":"cristhian0001@hotmail.com"
+        },
+        {
+            "name":"",
+            "email":"aa@hotmail.com"
+        },
+        {
+            "name":"camilo gonzalez",
+            "email":"bb@hotmail.com"
+        }
+    ],
+    "require":{
+    },
+    "autoload":{
+        "psr-4":{
+            "universidad\\":"src/"
+        }
+    }
+}
