@@ -12,8 +12,8 @@
       <title>CREATIC</title>
 
       <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="../assets/css/estilos.css">
+      <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../../assets/css/estilos.css">
     </head>
 
     <body>
@@ -32,11 +32,11 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
-              <li>
-                <a href="pedidos/index.php" class="btn">Pedido</a>
+              <li class="active">
+                <a href="index.php" class="btn">Pedido</a>
               </li>
               <li>
-                <a href="animes/index.php" class="btn">Anime</a>
+                <a href="../animes/index.php" class="btn">Anime</a>
               </li> 
                 <li class="dropdown">
                   <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
@@ -54,6 +54,47 @@
 
       <div class="container" id="main">      
 
+        <div class="row">
+          <div class="col-md-12">
+            <div class="pull-right">
+              <a href="formRegistrar.php" class="btn btn-primary"> <span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <fieldset>
+              <legend>Listado Anime</legend>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Titulo</th>
+                    <th>Categoria</th>
+                    <th>Precio</th>
+                    <th class="text-center">Foto</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#</td>
+                    <td>Titulo</td>
+                    <td>Categoria</td>
+                    <td>Precio</td>
+                    <td class="text-center">Foto</td>
+                    <td>
+                    <a href="formRegistrar.php" class="btn btn-danger btn-sm"> <span class="glyphicon glyphicon-trash"></span></a>
+                    <a href="formRegistrar.php" class="btn btn-success btn-sm"> <span class="glyphicon glyphicon-edit"></span></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </fieldset>
+          </div>
+        </div>
+
 
         </div> <!-- /container -->
 
@@ -61,8 +102,8 @@
       <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
-      <script src="../assets/js/jquery.min.js"></script>
-      <script src="../assets/js/bootstrap.min.js"></script>
+      <script src="../../assets/js/jquery.min.js"></script>
+      <script src="../../assets/js/bootstrap.min.js"></script>
 
     </body>
   </html>

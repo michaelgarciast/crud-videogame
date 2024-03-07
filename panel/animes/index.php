@@ -12,8 +12,8 @@
       <title>CREATIC</title>
 
       <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="../assets/css/estilos.css">
+      <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../../assets/css/estilos.css">
     </head>
 
     <body>
@@ -33,10 +33,10 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
               <li>
-                <a href="pedidos/index.php" class="btn">Pedido</a>
+                <a href="../pedidos/index.php" class="btn">Pedido</a>
               </li>
-              <li>
-                <a href="animes/index.php" class="btn">Anime</a>
+              <li  class="active">
+                <a href="index.php" class="btn">Anime</a>
               </li> 
                 <li class="dropdown">
                   <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
@@ -61,8 +61,8 @@
       <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
-      <script src="../assets/js/jquery.min.js"></script>
-      <script src="../assets/js/bootstrap.min.js"></script>
+      <script src="../../assets/js/jquery.min.js"></script>
+      <script src="../../assets/js/bootstrap.min.js"></script>
 
     </body>
   </html>
