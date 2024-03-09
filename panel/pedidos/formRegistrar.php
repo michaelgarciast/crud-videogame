@@ -53,7 +53,45 @@
     </nav>
 
     <div class="container" id="main">      
-
+        <div class="row">
+            <div class="col-md-6">
+                <fieldset>
+                    <legend>Datos del anime</legend>
+                        <form method="POST" action="acciones.php" enctype ="multipart/form-data">
+                            <div class="mb-3">
+                                <label>Titulo</label>
+                                <input type="text" name="titulo" class="form-control"required>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label>Descripcion</label>
+                                <textarea name="descripcion" class="form-control" id="" cols="4" required></textarea>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label>Categoria</label>
+                                <select class="form-control" name="categoria_id" required>
+                                    <option value="">--Seleccionar--</option>
+                                    <option value="1">Aventura</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label>Foto</label>
+                                <input type="file" name="foto" class="form-control"required>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label>Precio</label>
+                                <input type="text" name="precio" class="form-control" placeholder="0.00" required>
+                            </div>
+                            <br>
+                            <input name="accion" type="submit" class="btn btn-primary" value="Registrar">
+                            <a href="index.php" class="btn btn-primary">Cancelar</a>
+                        </form>
+            </fieldset>
+            </div>
+        </div>
 
     </div> <!-- /container -->
 

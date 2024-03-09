@@ -84,9 +84,9 @@
                     <td>Categoria</td>
                     <td>Precio</td>
                     <td class="text-center">Foto</td>
-                    <td>
+                    <td class="text-center">
                     <a href="formRegistrar.php" class="btn btn-danger btn-sm"> <span class="glyphicon glyphicon-trash"></span></a>
-                    <a href="formRegistrar.php" class="btn btn-success btn-sm"> <span class="glyphicon glyphicon-edit"></span></a>
+                    <a href="formActualizar.php" class="btn btn-success btn-sm"> <span class="glyphicon glyphicon-edit"></span></a>
                     </td>
                   </tr>
                 </tbody>
